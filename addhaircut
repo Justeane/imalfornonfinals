@@ -1,0 +1,17 @@
+<?php
+    $cut = $_POST['Cut'];
+    $size = $_POST['Size'];
+    $color = $_POST['Color'];
+    $price = $_POST['Price'];
+     
+     echo $cut." ".$size."color".$color."price".$price;
+     
+     $connection = mysqli_connect("localhost","root","","im_alfornondb");
+     
+     $sql = "INSERT INTO haircut VALUES(0,'$cut','$size','$color','$price')";
+     
+     $result = $connection->query($sql);
+     
+     $connection->close();
+     
+     header("location:index.php");
