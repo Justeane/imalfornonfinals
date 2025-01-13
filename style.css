@@ -1,0 +1,79 @@
+body{
+    background-color: #009955 ;
+    font-family: 'Tahoma';
+}
+form{
+    background-color: #009955  ;
+    color: #000000;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px #000000;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    width: 200px;
+}
+input{
+    display: block;
+    color: #000000;
+    width: 200px;
+    padding: .5em;
+    margin: 0px auto;
+    border: solid .05em #000000;
+    border-radius: 5px;
+}
+input[type='Submit']{
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    margin: 1em;
+    padding: .5em;
+    width: 220px;
+}
+input[type='Submit']:hover{
+    background-color: #ccffcc;
+}
+table{
+    background-color: #66ff99;
+    color: #000000;
+    padding: 15px;
+    margin:10px auto;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px #000000;
+}
+tr:nth-child(even){
+    background-color: #ffffff;
+    color: #ffcccc;
+}
+td{
+    border: none;
+    color: #000000;
+    margin: 0px;
+    padding: .5em;
+}
+th{
+    padding: .5em;
+}
+.btn{
+    background-color: #00cc99;
+    color: #000000;
+    padding: .3em;
+    margin: .1em;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: #ccffcc;
+    color: #000000;
+}
