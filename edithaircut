@@ -1,0 +1,13 @@
+<?php
+
+$Id = $_POST['Id'];
+$cut = $_POST['cut'];
+$size = $_POST['size'];
+$color = $_POST['color'];
+$price = $_POST['price'];
+
+$connection = mysqli_connect("localhost","root","","im_alfornondb"); 
+     $sql = "UPDATE haircut SET cut='$cut',size='$size',color='$color',price=$price WHERE Id=$Id";
+     $result = $connection->query($sql);
+     $connection->close();
+     header('location:index.php');
